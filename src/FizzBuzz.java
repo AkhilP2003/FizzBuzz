@@ -5,10 +5,6 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        extracted();
-    }
-
-    private static void extracted() {
         int i = 1;
         while (i < 100) {
 
@@ -40,5 +36,8 @@ class FizzBuzz {
             }
         i++;
         }
+    }
+
+    public static void doFizzbuzz(int i) {
     }
 }
